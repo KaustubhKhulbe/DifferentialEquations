@@ -11,6 +11,7 @@ t = 10000
 xar = []
 yar = []
 
+#Upload Test
 
 def acceleration(theta, theta_dot):
     return -airResistance*theta_dot - (g/L) * np.sin(theta)
